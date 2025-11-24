@@ -1,4 +1,5 @@
 PROJECT TITLE -  Client Contact CRUD Manager
+
 PROJECT OVERVIEW : CLIENT CONTACT CRUD MANAGER
 This code creates a client contact crud manager designed to handle the basic operations for managing a list of contacts. This included CRUD (Create , Read , Update , Delete)application that involves key feature of CSV File.
 - The primary goal of this system is to maintain a well defined record of all the contacts. 
@@ -24,6 +25,7 @@ While the current code is functional, a complete application would typically inc
 -> Search/Filter 
 -> Input Validation
 -> User Interface 
+
 PROJECT FEATURE : CLIENT CONTACT CRUD MANAGER
 1. Data Model (contact class)
 - Structured data : Defines a consistent structure for each contact (ID , NAME , PHONE , EMAIL , COMPANY)
@@ -37,11 +39,15 @@ PROJECT FEATURE : CLIENT CONTACT CRUD MANAGER
 3. Persistence 
 - CSV Storage : uses csv file to store all the data
 - Automated I/O : Loads contacts from the file on startup and saves all the changes immediately 
+
+
 PROJECT TECHNOLOGIES USED :  CLIENT CONTACT CRUD MANAGER
 1. Structured data: uses the contact cladss as an OOP data model to define contact attributes.
 2. CRUD opertaions : The ContactManager handles all the create, Read , Update and delete.
 3. Unique IDS: Automatically generates and manages unique, sequential IDs for new contact.
 4. CSV Persistence: Uses the built-in csv module to load data on startup and save changes instantly to a CSV file.
+
+
 PROJECT STEPS AND INSTALLATION
 Installation Steps
 
@@ -58,6 +64,8 @@ Result
 
 The code will execute the demonstration logic in the if __name__ == "__main__": block (adding, updating, and deleting contacts).
 A file named Contacts_data.csv will be created or updated in the same directory, persisting the final contact data.
+
+
 PROJECT INSTRUCTIONS FOR TESTING 
 - Test Case: Create (Add)
 Action: Run the script (which adds contacts).
