@@ -49,7 +49,7 @@ PROJECT TECHNOLOGIES USED :  CLIENT CONTACT CRUD MANAGER
 
 
 PROJECT STEPS AND INSTALLATION
-Installation Steps
+
 
 Install Python: Ensure you have Python installed on your system.
 Save Code: Save the entire Python script into a file named, for example, contact_manager.py.
