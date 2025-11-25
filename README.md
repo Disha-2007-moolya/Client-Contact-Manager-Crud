@@ -3,16 +3,29 @@ PROJECT TITLE - Client Contact CRUD Manager
 PROJECT OVERVIEW : CLIENT CONTACT CRUD MANAGER This code creates a client contact crud manager designed to handle the basic operations for managing a list of contacts. This included CRUD (Create , Read , Update , Delete)application that involves key feature of CSV File.
 
 The primary goal of this system is to maintain a well defined record of all the contacts. Operation Methods Create manager.add() Read manager.get() Update manager.update() Delete manager.delete()
-Architectural Component The progect is structured around two python classes,following the Object - Oriented Programming (OOP).
+Architectural Component 
+The progect is structured around two python classes,following the Object - Oriented Programming (OOP).
 CONTACT Class (Data Model) -> Role: Represents a single contact entity
 CONTACTMANAGER class (Business Logic Access layer) -> Role: Acts as the central hub for managing the collection of contacts and handling file I/O.
-Data Persistence The system uses the buit-in Python csv module for file handling. -Technology stack Language : Python Module : csv,os,typing Data Format : Comma-separated values(csv) -Future Enhancements While the current code is functional, a complete application would typically include features such as: -> Search/Filter -> Input Validation -> User Interface
+Data Persistence The system uses the buit-in Python csv module for file handling. 
+-Technology stack Language : 
+Python Module : csv,os,typing
+Data Format : Comma-separated values(csv) 
+-Future Enhancements While the current code is functional, a complete application would typically include features such as: 
+-> Search/Filter
+-> Input Validation
+-> User Interface
+
 PROJECT FEATURE : CLIENT CONTACT CRUD MANAGER
 
 Data Model (contact class)
 Structured data : Defines a consistent structure for each contact (ID , NAME , PHONE , EMAIL , COMPANY) -Data Conversion : Handles conversion between Python objects and dictionary format for file I/O.
 Core Functionality (ContactManager class)
-CRUD operations -> Create - add -> Read - get_all,get -> Update - update -> Delete - delete
+CRUD operations
+-> Create - add 
+-> Read - get_all,get 
+-> Update - update 
+-> Delete - delete
 Persistence
 CSV Storage : uses csv file to store all the data
 Automated I/O : Loads contacts from the file on startup and saves all the changes immediately
@@ -22,14 +35,12 @@ Structured data: uses the contact cladss as an OOP data model to define contact 
 CRUD opertaions : The ContactManager handles all the create, Read , Update and delete.
 Unique IDS: Automatically generates and manages unique, sequential IDs for new contact.
 CSV Persistence: Uses the built-in csv module to load data on startup and save changes instantly to a CSV file.
+
 PROJECT STEPS AND INSTALLATION
-
 Install Python: Ensure you have Python installed on your system. Save Code: Save the entire Python script into a file named, for example, contact_manager.py.
-
 Run Project Steps Open Terminal: Open your operating system's command prompt or terminal. Navigate: Change the directory to the location where you saved contact_manager.py. Execute: Run the script using the Python interpreter command: python contact_manager.py
 
 Result
-
 The code will execute the demonstration logic in the if name == "main": block (adding, updating, and deleting contacts). A file named Contacts_data.csv will be created or updated in the same directory, persisting the final contact data.
 
 PROJECT INSTRUCTIONS FOR TESTING
